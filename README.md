@@ -1,6 +1,6 @@
 # websocket-dbus-proxy
 
-Creates a websocket server that forwards messages received by the script through dbus. Requires Python 3.
+Creates a websocket server that forwards messages received through dbus. Requires Python 3.
 
 
 ## Example use-cases
