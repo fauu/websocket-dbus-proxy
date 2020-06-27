@@ -31,9 +31,9 @@ async def message_filter(connection, message, data):
 
 def main(argv):
     if len(argv) != 2:
-        print(f"Usage: {sys.argv[0]} <port>", file=sys.stderr)
+        print(f"Usage: {argv[0]} <port>", file=sys.stderr)
         return 1
-    port = sys.argv[1]
+    port = argv[1]
 
     start_server = websockets.serve(producer_handler, "localhost", port)
 
