@@ -30,7 +30,7 @@ async def message_filter(connection, message, data):
 
 
 def main(argv):
-    if len(sys.argv) != 2:
+    if len(argv) != 2:
         print(f"Usage: {sys.argv[0]} <port>", file=sys.stderr)
         return 1
     port = sys.argv[1]
